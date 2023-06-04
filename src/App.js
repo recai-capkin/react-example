@@ -5,7 +5,8 @@ import {CustomComp2,CustomComp1} from './Components/Function-Component/functionc
 import Classcomp1 from './Components/Class-Component/classcomp1';
 import UserData from './Data/data.json'
 import Userlist from './Components/User-Comp/user-list';
-
+import Userlist2 from  './Components/User-Comp2/user-list'
+import Userlist3 from  './Components/User-Comp3/user-list'
 const App = () => {
   return (
     <>
@@ -13,6 +14,8 @@ const App = () => {
       <CustomComp2></CustomComp2>
       <Classcomp1 data="Buraya data geliyor"></Classcomp1>
       <Userlist user={UserData }/>
+     < Userlist2 user={UserData }/>
+    <Userlist3 user={UserData }></Userlist3>
       {/* <ul>
         {UserData.map((user) => (
           <>
